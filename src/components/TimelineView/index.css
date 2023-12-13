@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.timeline-view-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.my-journey-h1 {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.ccbp-title {
+  color: #2b237c;
+  font-size: 38px;
+  font-weight: 500;
+  margin-top: 0px;
+}

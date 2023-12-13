@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.course-timeline-bg {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.course-title-container {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-title-h1 {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: 550;
+  margin: 0px;
+}
+
+.course-duration-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.clock-icon {
+  color: #1e293b;
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.course-duration-p {
+  color: #2b237c;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.course-description {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.taglist-div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.taglist-btn {
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 550;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px 5px 0px;
+}
