@@ -20,7 +20,7 @@ const CourseTimelineCard = props => {
       <div className="taglist-div">
         {tagsList.map(each => (
           <button type="button" key={each.id} className="taglist-btn">
-            {each.name}
+            <p className="name-p">{each.name}</p>
           </button>
         ))}
       </div>

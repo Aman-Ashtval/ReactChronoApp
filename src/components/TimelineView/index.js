@@ -12,11 +12,24 @@ const TimelineView = props => {
     return {title}
   })
 
+  const timelineTheme = {
+    primary: '#0967d2',
+    secondary: '#ffffff',
+    cardBgColor: 'yellow',
+    cardForeColor: 'violet',
+    titleColor: 'red',
+  }
+
   return (
     <div className="timeline-view-bg">
-      <h1 className="my-journey-h1">MY JOURNEY OF</h1>
-      <p className="ccbp-title">CCBP 4.0</p>
-      <Chrono items={titleList} mode="VERTICAL_ALTERNATING">
+      <h1 className="my-journey-h1">
+        MY JOURNEY OF <br /> <span className="ccbp-title">CCBP 4.0 </span>
+      </h1>
+      <Chrono
+        items={titleList}
+        mode="VERTICAL_ALTERNATING"
+        theme={timelineTheme}
+      >
         {timelineItemsList.map(each =>
           each.categoryId === 'COURSE' ? (
             <CourseTimelineCard courseDetails={each} key={each.id} />

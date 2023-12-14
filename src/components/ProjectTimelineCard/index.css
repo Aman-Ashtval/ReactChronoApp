@@ -1,1 +1,18 @@
 /* Write your CSS here */
+
+.project-card-bg {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.project-img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.visit-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
